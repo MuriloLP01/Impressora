@@ -15,9 +15,9 @@ public class Main {
         documentoOficial.setNome("Teste");
         documentoOficial.setTipo("documento");
 
-        Impressora.adicionarImprimivel(contrato);
-        Impressora.adicionarImprimivel(foto);
-        Impressora.adicionarImprimivel(documento);
+        Impressora.adicionarImprimivel(contratoDeAluguel);
+        Impressora.adicionarImprimivel(fotoDeFamilia);
+        Impressora.adicionarImprimivel(documentoOficial);
 
 
         Impressora.imprimirTudo();
