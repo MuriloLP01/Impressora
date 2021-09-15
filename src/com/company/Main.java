@@ -3,17 +3,17 @@ import exercicioImpressora.*;
 public class Main {
 
     public static void main(String[] args) {
-        Contrato contrato =  new Contrato();
-        contrato.setNome("Contrato 1");
-        contrato.setTipo("contrato");
+        Contrato contratoDeAluguel =  new Contrato();
+        contratoDeAluguel.setNome("Contrato 1");
+        contratoDeAluguel.setTipo("contrato");
 
-        Foto foto = new Foto();
-        foto.setNome("Festa");
-        foto.setTipo("foto");
+        Foto fotoDeFamilia = new Foto();
+        fotoDeFamilia.setNome("Festa");
+        fotoDeFamilia.setTipo("foto");
 
-        Documento documento = new Documento();
-        documento.setNome("Teste");
-        documento.setTipo("documento");
+        Documento documentoOficial = new Documento();
+        documentoOficial.setNome("Teste");
+        documentoOficial.setTipo("documento");
 
         Impressora.adicionarImprimivel(contrato);
         Impressora.adicionarImprimivel(foto);
